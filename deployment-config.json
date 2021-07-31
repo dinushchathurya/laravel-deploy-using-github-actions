@@ -4,7 +4,7 @@
     "username": "",
     "password": "",
     "port": "22",
-    "beforeHooks": "",
+    "beforeHooks": "echo $GITHUB_SHA",
     "afterHooks": "",
     "path": "/var/www/html"
 }]
