@@ -20,3 +20,7 @@ jobs:
         with: 
           php-version: 7.4
           extensions: mbstring, ctype, fileinfo, openssl, PDO, bcmath, json, tokenizer, xml, intl
+
+      - name: Install Composer Dependencies
+        run: 
+          composer install --no-dev --no-interaction --prefer-dist
