@@ -23,7 +23,7 @@ $ php artisan serve
 - Change <code>deployment-config.json</code> according to your server details.
 - Then goto <code>Settings->Secrets->New repository secret</code> and create secret Name as <code>Laravel_ENV</code> and paste your <code>.env</code> in value section.
 - In here I have use server password but if you need to use SSH key you can use <code>SSH_KEY</code> variable as above step
-- Then push changes to Github and goto <code>Action</code> section
+- Then push changes to Github and goto <code>Action</code> section check deployment progress
 
 ## Author
 [Dinush Chathurya](https://dinushchathurya.github.io/)
