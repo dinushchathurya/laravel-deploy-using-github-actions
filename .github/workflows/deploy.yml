@@ -110,6 +110,7 @@ jobs:
       with:
         host: ${{ matrix.server.ip }}
         username: ${{ matrix.server.username }}
+        password: ${{ matrix.server.password }}
         key: ${{ secrets.SSH_KEY }}
         port: ${{ matrix.server.port }}
         envs: GITHUB_SHA,RELEASE_PATH,ACTIVE_RELEASE_PATH,STORAGE_PATH,BASE_PATH
