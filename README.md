@@ -1,6 +1,6 @@
 # Laravel Zero Downtime Deployment
 
-## In this it shows how to deploy your laravel application to production without zero downtime using Github action.
+### In this it shows how to deploy your laravel application to production without zero downtime using Github action.
 
 # To test on local environment
 
